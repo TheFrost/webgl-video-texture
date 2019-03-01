@@ -1,0 +1,60 @@
+html, body {
+  position: relative;
+
+  padding: 0;
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#media {
+  position: absolute;
+  /* z-index: -1; */
+  top: 50%;
+  left: 50%;
+  z-index: 90;
+
+  transform: translate3d(-50%, -50%, 0);
+  
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#webgl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.home {
+  position: relative;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+}
+
+.section.one {
+  background-color: grey;
+}
+.section.two {
+  background-color: cadetblue;
+}
+.section.three {
+  background-color: burlywood;
+}

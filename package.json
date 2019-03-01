@@ -1,0 +1,15 @@
+{
+  "name": "wbgl-video-texture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-shader-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4"
+  }
+}
